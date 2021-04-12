@@ -1,0 +1,6 @@
+option('zlib', type: 'feature', value: 'enabled', description: 'zlib compression support')
+option('bzlib', type: 'feature', value: 'enabled', description: 'bz2lib compression support')
+option('xzlib', type: 'feature', value: 'enabled', description: 'liblzma/xz compression support')
+option('libseccomp', type: 'feature', value: 'enabled', description: 'libseccomp sandboxing')
+option('elf', type: 'feature', value: 'enabled', description: 'if built-in ELF support is used')
+option('elf-core', type: 'feature', value: 'enabled', description: 'for ELF core file support')
