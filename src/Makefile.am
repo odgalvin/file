@@ -27,4 +27,4 @@ HDR= $(top_srcdir)/src/magic.h.in
 BUILT_SOURCES = magic.h
 
 magic.h:	${HDR}
-	sed -e "s/X.YY/$$(echo @VERSION@ | tr -d .)/" < ${HDR} > $@
+	sed -e "s/@MAGIC_VERSION@/$$(echo @VERSION@ | tr -d .)/" < ${HDR} > $@
